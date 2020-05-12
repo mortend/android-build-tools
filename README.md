@@ -34,6 +34,8 @@ The SDK is installed to one of the locations below. The installer will only down
 
 > On Windows, if your user name or `%LOCALAPPDATA%` contain non-ASCII characters, the SDK is installed to `%PROGRAMDATA%\Android\sdk` instead. This is because we get build errors if the SDK location contains non-ASCII characters.
 
+> If you're using Fuse SDK v1.14 or lower, you should install `android-build-tools@1.4.0` because later versions aren't compatible with older Fuse SDK releases.
+
 > If you're using Fuse SDK v1.12 or lower, you should install `android-build-tools@1.2.0` because later versions aren't compatible with older Fuse SDK releases.
 
 ### Related packages

@@ -194,9 +194,9 @@ sdkmanager-install "ndk;$NDK_VERSION"
 
 # Emit config file for Uno.
 node update-unoconfig.js \
-    "Android.SDK.Directory: $SDK_DIR" \
-    "Android.NDK.Directory: $NDK_DIR" \
-    "Java.JDK.Directory: $JAVA_HOME"
+    "Android.SDK: $SDK_DIR" \
+    "Android.NDK: $NDK_DIR" \
+    "Java.JDK: $JAVA_HOME"
 
 echo -e "\n--- ~/.unoconfig --------------------------------------------------------------"
            cat ~/.unoconfig
